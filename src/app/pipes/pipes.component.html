@@ -13,8 +13,8 @@
       <td>{{user.Name | uppercase }}</td> 
       <td>{{user.city | lowercase }}</td>
       <td>{{user.Salary | currency:'INR':'symbol':'3.3-3' }}</td>
-      <td>{{user.DOB | date:'mm/dd/yyyy'}}</td>
+      <td>{{user.DOB | date:'dd/MM/yyyy'}}</td>
     </tr>
 </table>
 
-<p JSON pipe apply>{{users|json}}</p>
+<pre JSON pipe apply>{{users|json}}</pre>
